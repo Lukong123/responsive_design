@@ -419,24 +419,6 @@ div.circle{
     transition: all 0.3s ease-in-out;
     background-color: #bcc3c7;
 }
-@media only screen and (max-width:992px){
-    div.hero-section{
-        padding: 6rem;
-    }
-    div.background{
-        height: auto;
-    }
-    div.hero-background{
-        padding: 8rem;
-    }
-    div.box1{
-        width: 200px;
-        height: 220px;
-    }
-    div.box3{
-        width: 200px;
-        height: 220px;
-    }
     .nav-links{
         position: fixed;
         left: -100%;
@@ -466,5 +448,27 @@ div.circle{
 
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
+    }
+@media only screen and (max-width:992px){
+    div.hero-section{
+        padding: 6rem;
+    }
+    div.background{
+        height: auto;
+    }
+    div.hero-background{
+        padding: 8rem;
+    }
+    div.box1{
+        width: 200px;
+        height: 220px;
+    }
+    div.box3{
+        width: 200px;
+        height: 220px;
+    }
+    
+    div.hero-background-pos{
+        left: 75%;
     }
 }
