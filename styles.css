@@ -382,13 +382,13 @@ div.snapshot-team p{
     font-size: unset;
 }
 div.box1{
-    width: 265px;
-    height: 240px;
+    width: 265px !important;
+    height: 240px !important;
     margin: 17px;
 }
 div.box3{
-    width: 265px;
-    height: 240px;
+    width: 265px !important;
+    height: 240px !important;
     margin: 17px;
 }
 div.box1 h5{
