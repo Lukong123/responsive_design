@@ -351,6 +351,9 @@ div.footer h6 {
 div.hero-content-heading h3{
     margin-top: -75px;
 }
+div.nav-bar{
+    padding: 1rem 2rem;
+}
 div.hero-background-pos{
     position: relative;
 }
